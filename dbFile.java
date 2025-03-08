@@ -15,7 +15,7 @@ public class dbFile {
     /*Starting Values(Scanner, Client and Database access)
      * Every file will use this access
      */
-    static String connectionString = "mongodb+srv://TheMechanic:MyCluster1@personaldb.lbxjn.mongodb.net/";
+    static String connectionString = "my-connection-string";
     static MongoClient client = MongoClients.create(connectionString);
     static MongoDatabase database = client.getDatabase("Projects");
 
